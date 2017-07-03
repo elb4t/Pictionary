@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActividadPrincipal">
+
+    <Button
+        android:id="@+id/btnComenzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="COMENZAR!" />
+
+    <TextView
+        android:id="@+id/txtPalabra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnComenzar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="PALABRA"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</RelativeLayout>
