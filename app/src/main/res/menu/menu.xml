@@ -3,8 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="es.elb4t.pictionary.ActividadPrincipal">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/cuenta_atras"
+        android:icon="@android:drawable/ic_menu_recent_history"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:title="Cuenta atrás"
+        android:visible="true"
+        app:showAsAction="always|withText" />
 </menu>
